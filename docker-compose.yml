@@ -16,7 +16,7 @@ services:
       - ./data/mariadb:/var/lib/mysql                                # volume for data
       - ./log/mariadb:/var/log/mysql                                 # log mariadb
     environment:
-      - MARIADB_VERSION=10.2.14
+      - MARIADB_VERSION=10.3.5
       - MYSQL_ROOT_PASSWORD=password                                 # root password
       - MYSQL_ROOT_HOST=mariadb                                      # grant user hostmask (optional)
       - MYSQL_DATABASE=laradock_mariadb                              # create database (optional)

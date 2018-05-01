@@ -194,7 +194,7 @@ socket=${SOCKET}
 password=healthycheckpass
 EOF
   chown -R mysql:mysql "$DATADIR"
-  echo "[Entrypoint] Starting MariaDB 10.2.14"
+  echo "[Entrypoint] Starting MariaDB 10.3.5"
 fi
 
 exec "$@"

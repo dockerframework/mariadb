@@ -1,4 +1,4 @@
-ARG MARIADB_VERSION=10.2.14
+ARG MARIADB_VERSION=10.3.5
 FROM mariadb:${MARIADB_VERSION}
 
 # ================================================================================================
